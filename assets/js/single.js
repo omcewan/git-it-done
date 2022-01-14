@@ -33,6 +33,8 @@ function getRepoIssues(repo) {
   });
 }
 
+
+
 function displayIssues(issues) {
   if (issues.length === 0) {
     issueContainerEl.textContent = "This repo has no open issues!";
